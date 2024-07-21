@@ -1,0 +1,51 @@
+.navigation {
+  margin: 10px;
+  border: 2px solid black;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #0000007e;
+}
+.navigation h1 {
+  font-size: 1.8rem;
+  color: blue;
+}
+nav img {
+  height: 4.3rem;
+  mix-blend-mode: multiply;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 1.4rem;
+  color: black;
+}
+.nav-link:hover {
+  color: #0077ff;
+}
+.button {
+  position: relative;
+  padding-left: 340px;
+}
+
+.button button {
+  background-color: #0077ff;
+
+  padding: 10px 30px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+button a:hover {
+  color: red;
+}

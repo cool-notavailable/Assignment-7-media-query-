@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  margin: 10px;
+}
+/* utility class */
+
+/* Navigation */
+.navigation {
+  border: 2px solid black;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+
+  background-color: #0000007e;
+}
+.navigation h1 {
+  font-size: 1.8rem;
+  color: blue;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 1.4rem;
+  color: black;
+}
+.nav-link:hover {
+  color: #0077ff;
+}
+.button {
+  position: relative;
+  padding-left: 340px;
+}
+
+.button button {
+  background-color: #0077ff;
+
+  padding: 10px 30px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+button a:hover {
+  color: red;
+}
+
+/* Main */
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 80vh;
+  margin-top: 10px;
+}
+
+.left-items {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.left-items h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  margin-top: 100px;
+}
+.left-items h1 {
+  font-size: 3.5rem;
+  color: #0077ffdc;
+}
+.left-items h4 {
+  font-size: 1.3rem;
+  color: #00f7ff;
+}
+.left-items img {
+  height: 100px;
+}
+.left-items p {
+  width: 90%;
+  font-size: 1.1rem;
+  padding: 20px 0;
+}
+.right-items {
+  background-image: url(card.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
